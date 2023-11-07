@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@500&display=swap');
-
 li
 {
     color: black;
@@ -39,10 +38,35 @@ body
 
 }
 
-img
-{
-    border-radius: 15px;
+
+.alles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.erste-hotel-anzeige{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.zweite-hotel-anzeige{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+}
+
+.Ibild{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
 
 #preis
 {
@@ -66,23 +90,20 @@ img
     font-size: 14px;
     margin-left: 10px;
     padding-top: 15px;
-
+    text-decoration: none;
 }
+
+#kaufen:hover{
+    text-decoration: underline;
+}
+
 .infobox
 {
-    display: inline-block;
-
     background-color: #edeff1;
     border-radius: 15px;
     width: 300px;
     height: 150px;
     margin-top: 20px;
-    margin-left: 25px;
-}
-
-.neben
-{
-    margin-left: 205px;
 }
 
 .infobox2
@@ -94,6 +115,7 @@ img
     height: 150px;
     margin-left: 25px;
 }
+
 .pricebox
 {
     background-color: rgb(6, 224, 104);    
@@ -104,6 +126,7 @@ img
     width: 100px;
     
 }
+
 #location
 {
     float: right;
@@ -122,17 +145,4 @@ img
     margin-left: 40px;
     width: 250px;
     top: 200px;
-}
-.first
-{
-    display: inline-block;
-    padding-left: 150px;
-    padding-top: 50px;
-}
-
-.second
-{
-    display: inline-block;
-    padding-left: 150px;
-    padding-top: 50px;
 }
